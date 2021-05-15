@@ -20,6 +20,11 @@ export class HttpRequestBuilder {
         return this
     }
 
+    public timeout(ms: number) {
+        this.options.timeout = ms
+        return this
+    }
+
     public send() {
         return got<any>(this.options)
     }
