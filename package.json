@@ -1,0 +1,26 @@
+{
+  "name": "dummy-api-ts-got",
+  "version": "1.0.0",
+  "description": "API testing project for http://dummy.restapiexample.com/ using typescript with nodejs and got.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadehar/dummy-api-ts-got.git"
+  },
+  "author": "kadehar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kadehar/dummy-api-ts-got/issues"
+  },
+  "homepage": "https://github.com/kadehar/dummy-api-ts-got#readme",
+  "dependencies": {
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.3.0",
+    "got": "^11.8.2",
+    "mocha": "^8.4.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
