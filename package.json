@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "API testing project for http://dummy.restapiexample.com/ using typescript with nodejs and got.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ts-node/register ./src/tests/**/*.test.ts"
   },
   "repository": {
     "type": "git",
